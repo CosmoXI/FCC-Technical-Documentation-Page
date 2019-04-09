@@ -1,0 +1,31 @@
+/* Mobile Menu */
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #FFF;
+}
+.navigation {
+    display: none;
+}
+#navbar:hover .navigation {
+    display: block;
+}
+
+/* Format code */
+.tab {
+    margin-left: 1rem;
+}
+
+/* Desktop view */
+@media (min-width: 650px) {
+    #navbar {
+        position: inherit;
+        top: inherit;
+        width: inherit;
+        background-color: inherit;
+    }
+    .navigation {
+        display: block;
+    }
+}

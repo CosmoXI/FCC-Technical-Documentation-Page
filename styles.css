@@ -20,12 +20,16 @@
 /* Desktop view */
 @media (min-width: 650px) {
     #navbar {
-        position: inherit;
+        float: left;
+        position: fixed;
         top: inherit;
-        width: inherit;
+        width: 15%;
         background-color: inherit;
     }
     .navigation {
         display: block;
+    }
+    #main-doc {
+        margin-left: 15%;
     }
 }
